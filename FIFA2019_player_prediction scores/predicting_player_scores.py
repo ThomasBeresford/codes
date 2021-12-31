@@ -3,7 +3,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_percentage_error
 
-data_file_path = 'C:\codes\data.csv'
+data_file_path = 'C:\codes\FIFA2019_player_prediction scores\data.csv'
 
 unfiltered_player_data = pd.read_csv(data_file_path)
 
